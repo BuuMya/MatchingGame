@@ -1,0 +1,132 @@
+# =========================
+# Visual Studio 一般設定
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# ビルド出力・中間ファイル
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.log
+*.tlog
+*.lastbuildstate
+*.dbmdl
+*.cache
+*.bak
+*.ilk
+*.meta
+*.obj
+*.pdb
+*.pch
+*.tmp
+*.exe
+*.dll
+*.appx
+*.appxrecipe
+*.msix
+*.msixupload
+*.msixbundle
+*.psess
+*.vspx
+*.vspscc
+
+# =========================
+# 一時ファイル・バックアップ
+# =========================
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.log
+*.scc
+
+# =========================
+# パッケージ関連
+# =========================
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+# ローカルパッケージキャッシュ
+packages/
+# Package restore時に再生成されるもの
+project.lock.json
+project.fragment.lock.json
+
+# =========================
+# ユーザーごとの設定
+# =========================
+*.userprefs
+*.rsuser
+*.suo
+*.user
+*.vsconfig
+
+# =========================
+# Visual Studio Code (使用時のみ)
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Rider / JetBrains 製品 (使用時のみ)
+# =========================
+.idea/
+
+# =========================
+# その他
+# =========================
+# Windows ごみ箱・サムネイルなど
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# 発行（Publish）関連
+# =========================
+*.publish.xml
+publish/
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# =========================
+# 実行時生成ファイル（WinForm特有）
+# =========================
+*.resources
+*.resx.bin
+*.manifest
+
+# =========================
+# テスト / 一時出力
+# =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# Roslyn / 分析関連
+# =========================
+*.generated.cs
+*.editorconfig
+*.nbi
+
+# =========================
+# ユーザーが追加する一時ディレクトリ（例）
+# =========================
+temp/
+cache/
